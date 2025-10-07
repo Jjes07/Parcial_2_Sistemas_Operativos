@@ -38,6 +38,10 @@ Ejecuta el programa indicando la ruta de una imagen existente:
 ### Funciones del Programa
 La aplicación funciona de forma interactiva, guiando al usuario paso a paso por un menú de opciones.
 
+0. Salir
+
+    Finaliza la aplicación liberando toda la memoria asignada.
+
  1. Cargar imagen
    
     Permite seleccionar o reemplazar la imagen actual.
@@ -84,7 +88,3 @@ La aplicación funciona de forma interactiva, guiando al usuario paso a paso por
     Permite redimensionar la imagen a un nuevo ancho y alto.
     El usuario ingresa los valores deseados y el programa ajusta los píxeles usando interpolación bilineal.
     La operación se divide por filas entre múltiples hilos, aprovechando todos los núcleos disponibles.
-
-0. Salir
-
-    Finaliza la aplicación liberando toda la memoria asignada.
