@@ -1,0 +1,1 @@
+# Parcial_2_Sistemas_Operativos
